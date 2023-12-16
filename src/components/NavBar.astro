@@ -46,10 +46,14 @@ color: var(--background);
 
 <script>
     const {pathname} = window.location
-    const activeNavElement = document.querySelector(`[href="${pathname}"]`)
+    const path = pathname.match(/^\/$/) ? pathname : pathname.slice(0, -1);
+    const activeNavElement = document.querySelector(`[href="${path}"]`)
+    // const activeNavElement = document.querySelector(`[href="${pathname}"]`)
+    console.log(activeNavElement)
+    // console.log(activeNavElement + '/')
 
     if(activeNavElement) {
         activeNavElement.classList.add('active')
     }
-    console.log(pathname)
+    console.log(path)
 </script>
