@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Blog.astro
-poster: "philosophies.jpg"
+poster: "/images/philosophies.jpg"
 title: "My Guiding Philosophies"
 subtitle: "These are the philosophies that guide every decision and
 action I make."

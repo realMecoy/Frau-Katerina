@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Blog.astro
-poster: "work-summary.jpg"
+poster: "/images/road-trip.jpg"
 title: "Work summary"
 subtitle: "A summary of my work:"
 ---
